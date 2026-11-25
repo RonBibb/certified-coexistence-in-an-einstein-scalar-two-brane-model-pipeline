@@ -1,0 +1,28 @@
+{
+  "mode": "constraints",
+  "pass": true,
+  "checks": {
+    "constraint_transport_with_multiplier": true,
+    "coercive_multiplier_equation": true,
+    "constraint_transport_no_multiplier": true,
+    "auxiliary_current_action": true,
+    "current_EL_0": true,
+    "current_EL_1": true,
+    "current_EL_2": true,
+    "current_EL_3": true,
+    "no_quadratic_coupling_to_c": true,
+    "constant_harmonic_exception": true,
+    "embedding_harmonic_exception": true,
+    "generic_zero_mass_example": true,
+    "generic_minus4k_example": true,
+    "zero_mass_value": true,
+    "minus4k_value": true
+  },
+  "residuals": {},
+  "seconds": 1.2744445840071421,
+  "pid": 585402,
+  "cpus": [
+    3
+  ],
+  "sympy": "1.14.0"
+}

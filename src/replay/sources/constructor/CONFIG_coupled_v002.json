@@ -1,0 +1,15 @@
+{
+  "action": "ACTION_v002.txt",
+  "old_anchor_A": ["456607025194779413/4611686018427387904", "114151756532473697/1152921504606846976"],
+  "old_anchor_D": ["32727/16384", "32729/16384"],
+  "anchor_replay_refinements": 3,
+  "anchor_steps": 384,
+  "new_A_bracket": ["23/250", "47/500"],
+  "new_D": "1/5",
+  "new_k": "1/20000",
+  "new_root_bisections": 42,
+  "precision_bits": 256,
+  "taylor_order": 7,
+  "new_steps": [64, 128],
+  "required": "Bind and refine the original source anchor; verify coupled stationary reduction, exact root and gap controls, both whole paths, full wall action"
+}

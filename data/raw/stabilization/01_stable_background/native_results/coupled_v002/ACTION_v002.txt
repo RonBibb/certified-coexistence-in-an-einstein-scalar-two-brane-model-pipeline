@@ -1,0 +1,50 @@
+ACTION v002 — retain the selected coupled material action and change only the upper wall
+
+Source is Paper A, publication_updates/20261106_JMP_reference_update/
+manuscript/tex/source/main-body.tex eqs. (1)–(3), Table II and Appendix A,
+with supplement-body.tex eq. (S6). Same units, doubled Einstein–Hilbert
+and GHY normalization, neutral current continuation, proper radial
+coordinate and bulk quadratic p as ACTION_v001.
+
+In contrast to the separate decoupled member, use the exact original
+interactions and current functions from eq. (S6), at both walls:
+ W_i(Phi,chi_i)=chi_i²/2+[chi_i-(Phi-C_i)]²/2,
+ c_i(Phi)=1-(Phi-C_i)/1000,
+ with C_i fixed to the original central exact traces in Appendix A.
+C_a is the scalar launch of the original selected background, and C_b
+is its actual upper scalar trace. They are part of the action. No
+centering is updated for the candidate or at neighboring equilibria.
+Use the exact Appendix A anchor root, as identified by the existing
+independent background regeneration certificate. An enclosure replay
+is separate from this exact definition.
+
+Set k0=1/20000 and D0=1/5. Both currents vanish on the background and
+theta_i are constant. At any static de Sitter-symmetric wall equilibrium,
+chi_i=(Phi_i-C_i)/2, found from the independent wall Euler row. The
+stationary reduced tension is
+ U_i(Phi)=tau_i(Phi)+(Phi-C_i)²/4.
+Use U_i for the background matching only. Keep chi_i independent in
+the physical form, and retain both phase kinetic coordinates.
+
+Lower tau_a is exactly the original quadratic from ACTION_v001. Let A2
+be the unique root in [23/250,47/500] of
+ K2(A)=H_a²-1-T_a²/12+p A²/12=k0,
+ H_a=-U_a(A)/6, T_a=U_a'(A)/2.
+Start the same canonical IVP at W=0,H=H_a,Phi=A2,T=T_a, with k=k0.
+Write B2,H2,T2 for the endpoint at D0. Change only the two bare upper
+quadratic constants as follows:
+ v1_new=B2+T2/10+(B2-C_b)/40,
+ LB_new=6H2-10(B2-v1_new)²-(B2-C_b)²/4,
+ tau_b(Phi)=LB_new+10(Phi-v1_new)².
+These constants are exact definitions through the fixed background
+construction. U_b(B2)=6H2 and U_b'(B2)=-2T2. The lower junctions
+hold by launch and the Hamiltonian residual is conserved by the IVP.
+No other action functions or parameters change from the S6 example.
+In particular the off-diagonal Phi/chi restoring Hessian is -1 at
+both walls. On the background, c_i>0 by the bounded field traces.
+
+The declared complete generic radial domain includes the coupled
+scalar–metric and two independent chi blocks plus both theta phases
+with positive kinetic weights. The local static reduction used in
+this document is not imposed on perturbations. Target bound from
+SHARPENED_GAP_V002 is at least 1/1800-4k0 for the nonsymmetry sector.

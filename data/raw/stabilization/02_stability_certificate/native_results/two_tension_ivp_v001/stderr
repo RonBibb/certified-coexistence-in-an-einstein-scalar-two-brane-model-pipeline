@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/parallels/research-runs/paper-a-stability-20261107T080458Z/two_tension_ivp_v001/two_tension_ivp.py", line 121, in <module>
+    r,J=shoot(tag,A,k);rows.append(r);atomic("CASE_"+tag+".json",r)
+        ~~~~~^^^^^^^^^
+  File "/home/parallels/research-runs/paper-a-stability-20261107T080458Z/two_tension_ivp_v001/two_tension_ivp.py", line 61, in shoot
+    assert lo(z[3])>q("-.05") and hi(z[3])<q("-.035")
+                    ~^^^^^^^^
+  File "/home/parallels/research-runs/paper-a-stability-20261107T080458Z/two_tension_ivp_v001/two_tension_ivp.py", line 8, in <lambda>
+    q=lambda v:fmpq(str(v))
+               ~~~~^^^^^^^^
+  File "flint/types/fmpq.pyx", line 85, in flint.types.fmpq.fmpq.__init__
+  File "flint/types/fmpz.pyx", line 105, in flint.types.fmpz.fmpz.__init__
+ValueError: invalid string for fmpz

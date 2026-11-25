@@ -1,0 +1,34 @@
+{
+  "status": "PASS_EXACT_FOLD_AND_MASS_IDENTITIES",
+  "checks": {
+    "exact bulk first integral derivative": true,
+    "linearized first integral derivative": true,
+    "compensated noncancelling U flow": true,
+    "static lapse and radial shift": true,
+    "physical momentum row": true,
+    "physical f derivative": true,
+    "physical Hamiltonian row": true,
+    "physical L evolution": true,
+    "second varied curvature force": true,
+    "second compensated force": true,
+    "second varied scalar acceleration": true,
+    "stationary scalar row exactly": true,
+    "single changed coefficient event": true,
+    "independent upper vacuum derivative of metric row": true,
+    "independent upper vacuum derivative of scalar row": true,
+    "metric time row at actual scalar root": true,
+    "compensated upper derivative at scalar root": true,
+    "two-residual differentiated matching": true,
+    "physical mismatch proportional to action slope": true,
+    "mass Wronskian derivative": true,
+    "finite dynamical oscillator derivative": true
+  },
+  "runtime": {
+    "python": "/usr/bin/python3",
+    "python_sha256": "d1b87c365d0cf5a985cfedfc227ff613a5bc6ff56e841202eb9330d263bbeee9",
+    "sympy": "/home/parallels/codex-precision-venv/lib/python3.12/site-packages/sympy/__init__.py",
+    "sympy_sha256": "4e9476348ba105feab28d82f5bcf6cdba2e3e84de6e059bbfe7a13728c0a4ab0",
+    "sympy_version": "1.14.0"
+  },
+  "scope": "Exact symbolic identities, separate from validated stationary folds and mass data."
+}

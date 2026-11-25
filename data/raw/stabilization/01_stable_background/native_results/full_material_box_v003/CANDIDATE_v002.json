@@ -1,0 +1,14 @@
+{
+  "status": "EXACT_COUPLED_WALL_CONSTRUCTION_PUBLISHED_NATIVE_AND_PEER_CHECKS_PENDING",
+  "action": "ACTION_v002.txt",
+  "selected_action_screen": "ORIGINAL_COUPLED_ACTION_OBSTRUCTION_V002.txt",
+  "scalar_launch_bracket": ["23/250", "47/500"],
+  "separation": "1/5",
+  "curvature": "1/20000",
+  "unchanged": ["canonical quadratic bulk", "original lower wall", "both original coupled oscillator functions", "both original phase current functions", "both bare scalar Hessians"],
+  "changed_constants": ["upper tension constant", "upper scalar vacuum value"],
+  "proposed_full_nonsymmetry_lower_gap": "1/1800-4/20000",
+  "kernel": ["theta_a", "theta_b"],
+  "spectral_premise": "inherited V3 physical constrained form and V4 generic weak correspondence",
+  "required_checks": ["exact linked source trace enclosure", "short root and flow verification", "independent wall natural rows", "positive full-domain gap", "finite action neighborhood"]
+}

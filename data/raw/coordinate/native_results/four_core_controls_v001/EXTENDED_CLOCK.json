@@ -1,0 +1,13 @@
+{
+  "receipt_start_utc": "2026-11-08T07:08:04.405941+00:00",
+  "fixed_cutoff_utc": "2026-11-08T12:08:04.405941+00:00",
+  "closeout_start_utc": "2026-11-08T11:53:04.405941+00:00",
+  "model": "gpt-6-astra",
+  "reasoning": "high",
+  "max_native_cores": 4,
+  "duration_source": "Coordinator conservative ceiling; user authorized audit without specifying duration",
+  "authorized_seconds": 18000,
+  "extension_seconds": 10800,
+  "extension_authority": "User: Add 3 hrs - do you have the 4 cores",
+  "extension_received_utc": "2026-11-08T08:26:07.117660+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "control_literals": "CONFIG_controls_v001.json",
+  "candidate_native": "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/single_coefficient_v003/SINGLE_COEFFICIENT_v003_RESULT.json",
+  "candidate_sha256": "3f82a29f1536023f702d00bdea2fa8ceb2ebac2fc674d19216c1ed8cd2e4ae2e",
+  "branch_native": "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/single_coefficient_branch_v003/SINGLE_COEFFICIENT_BRANCH_v003_RESULT.json",
+  "branch_sha256": "0ce3dfc51104d72837965002c545b673b386f17c39330d8dad0433dc6de619fb",
+  "steps": 768,
+  "mass_bracket": [
+    "1/2000",
+    "1/10"
+  ],
+  "mass_width": "1/100000",
+  "event_width": "1/1000000000",
+  "max_bisections": 38,
+  "ACTION_v003.txt_sha256": "55d01967d1d0f066daf2117df57148cd52005bcb711516dd7c60f54772e71732",
+  "SINGLE_COEFFICIENT_BRANCH_V003.txt_sha256": "b743d7dad7b093db16d136cb0db31505f7243a78efc0de42cfe25d6c1a579b25",
+  "GAP_SINGLE_COEFFICIENT_V003.txt_sha256": "dd4eb4a3e82debabebf1bcf481589bd9ce8bd9c7e239a51cb21ffa4b206b91ce"
+}

@@ -1,0 +1,46 @@
+{
+  "tag": "upper_only_background_v001",
+  "start_utc": "2026-11-07T08:27:10.212249+00:00",
+  "cutoff_utc": "2026-11-07T10:04:58.480635+00:00",
+  "requested_cores": 1,
+  "requested_timeout": 120,
+  "science_started": true,
+  "pid": 299823,
+  "queue": false,
+  "cpus": [
+    0
+  ],
+  "memory_available_KiB": 29253576,
+  "disk_available_bytes": 5029584896,
+  "native_work": "/home/parallels/research-runs/paper-a-stability-20261107T080458Z/upper_only_background_v001",
+  "source_hashes": {
+    "two_tension_ivp_v001.py": "bc41d069a198dbdad37830d6338e310676b56e8fa441bea9792deb2fa059f4a8",
+    "two_tension_ivp.py": "3b8b8c405306148b7adf926f411939300abe0a914554dc236be9e8767692b7ed",
+    "ivp_engine.py": "d198c6e98d949190d479a33b3c5aadaee2021982e03141d0c1d252a0c370e044",
+    "qualify_stability.py": "86a63ab64aaf046f1b22141f29203478e5252e3d84bce0777cef6d2aff7a5cf0",
+    "action_controls.py": "788e4db35363506c4ad51b7be70b7cf83dbf7be23f0db928bd18b78c65c9db0b",
+    "lease_run.py": "32d5131363985c4e8f36e03e7ab6bc1ea5ebafc5d0e1e8d8f9b82439c29cd9a8",
+    "upper_only_native.py": "800a1e0f7485b52da29781fbd328ef6d60d973e23275eb2953d4ef7f737e5af5",
+    "CONFIG_tensions_v001.json": "7a9ffc857d3263a1aa73c2a67501cd54640188a41784de3428e80d21e83ebe75",
+    "CONFIG_upper_only_v001.json": "8f29563f65f5413e0ecb13d0ac4025c8739d787be5d93ca011b30423858fe0e1",
+    "CONFIG_controls_v001.json": "ff682a45b99a0abccddc66b7156aaf72eb08184fbe54e57998896075ddf069be",
+    "START.json": "fc23203d619ccfd523243673e2a95c03f909c39cb0a12892fdf298af17d75414"
+  },
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/parallels/research-runs/paper-a-stability-20261107T080458Z/upper_only_background_v001/upper_only_native.py",
+    "CONFIG_upper_only_v001.json",
+    "background"
+  ],
+  "actual_executable": "/usr/bin/python3",
+  "executable_sha256": "d1b87c365d0cf5a985cfedfc227ff613a5bc6ff56e841202eb9330d263bbeee9",
+  "platform": "Linux-7.0.0-42-generic-aarch64-with-glibc2.43",
+  "thread_limits": 1,
+  "environment": {
+    "PYTHONPATH": "/home/parallels/research-runs/cap-interval-arb-2026-09-12:/home/parallels/codex-precision-venv/lib/python3.12/site-packages",
+    "STUDY_CPUS": "0",
+    "OMP_NUM_THREADS": "1"
+  },
+  "child_pid": 299827
+}

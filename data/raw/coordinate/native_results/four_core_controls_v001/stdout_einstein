@@ -1,0 +1,1 @@
+{"mode": "einstein", "pass": true, "checks": {"(0, 0)": true, "(0, 1)": true, "(0, 2)": true, "(1, 1)": true, "(1, 2)": true, "(2, 2)": true, "(3, 3)": true, "negative_control_spatial_term_detected": true}, "residuals": {}, "seconds": 5.225579794991063, "pid": 585399, "cpus": [0], "sympy": "1.14.0"}

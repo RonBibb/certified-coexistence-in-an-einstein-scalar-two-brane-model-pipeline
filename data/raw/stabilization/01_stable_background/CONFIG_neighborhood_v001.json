@@ -1,0 +1,16 @@
+{
+  "action": "ACTION_v001.txt",
+  "centre_A": "9240366967284108/100000000000000000",
+  "centre_D": "1/5",
+  "centre_LB": "-6008293074678523/1000000000000000",
+  "centre_v1": "54216943429025145/1000000000000000000",
+  "radius_A": "1/100000000",
+  "radius_D": "1/1000000",
+  "radius_p": "1/100000000",
+  "radius_LB": "1/10000000000",
+  "radius_v1": "1/10000000000",
+  "precision_bits": 256,
+  "taylor_order": 7,
+  "steps": 128,
+  "required": "uniform Krawczyk/Banach strict self-map, contraction, positive curvature inside the uniform gap box"
+}

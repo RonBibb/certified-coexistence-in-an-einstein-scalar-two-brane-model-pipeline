@@ -1,0 +1,14 @@
+{
+  "action":"ACTION_v003.txt",
+  "source_enclosures":"CONFIG_coupled_anchor_binding_v002.json",
+  "A_interval":["489/5000","979/10000"],
+  "A_slabs":16,
+  "D_bracket":["4/5","22/25"],
+  "steps":192,
+  "taylor_order":7,
+  "precision_bits":256,
+  "A_fold_max_width":"1/100000000",
+  "event_refinements":38,
+  "fold_refinements":22,
+  "required":"Native direct geometric v_AA>0 on complete fold cover, both strict v_A signs, strict positive zero-mass profiles, simple fold image and finite positive square-root coefficient"
+}

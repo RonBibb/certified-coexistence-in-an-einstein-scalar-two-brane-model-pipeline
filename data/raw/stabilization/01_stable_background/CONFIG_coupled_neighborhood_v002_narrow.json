@@ -1,0 +1,15 @@
+{
+  "action": "ACTION_v002.txt",
+  "source_enclosures": "CONFIG_coupled_anchor_binding_v002.json",
+  "centre_A": "932184204486264/10000000000000000",
+  "centre_D": "1/5",
+  "centre_LB": "-6007047879100924/1000000000000000",
+  "centre_v1": "582274249466514/10000000000000000",
+  "radius_A": "1/100000",
+  "radius_D": "1/2000",
+  "radii": {"p":"1/500000","LA":"1/50000000","LB":"1/50000000","v0":"1/10000000","v1":"1/10000000","gamma_a":"1/100000","gamma_b":"1/100000"},
+  "precision_bits": 256,
+  "taylor_order": 7,
+  "steps": 128,
+  "required": "Strict uniform Krawczyk/Banach contraction and self-map, exact central action inclusion, positive k throughout a fixed uniform full gap box"
+}

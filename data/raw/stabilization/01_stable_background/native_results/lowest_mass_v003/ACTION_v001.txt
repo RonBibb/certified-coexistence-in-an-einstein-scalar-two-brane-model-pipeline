@@ -1,0 +1,39 @@
+ACTION v001 — upper-wall-only deformation of the decoupled-oscillator member
+
+Source action: Paper A, publication_updates/20261106_JMP_reference_update/manuscript/tex/source/main-body.tex, eqs. (1)–(3), Table II and Appendix B. Use its doubled Einstein–Hilbert and GHY conventions, ell=kappa_5=1, signature (-++++), reflected walls with inward signs (+,-), and positive-curvature de Sitter slices with Ric(gamma)=3k gamma. Set beta_a=beta_b=0, omega_a^2=omega_b^2=1, and c_a=c_b=1. These choices fix one full action in the published family before changing its upper wall. The two independent chi fields have canonical positive inertia and W_i=chi_i²/2. The two theta phases after auxiliary current elimination have wall Lagrangian -(D theta_i)²/4 and constant neutral backgrounds. Their kinetic coordinates remain in the declared complete radial sector. The selected manuscript example with beta=1 has a distinct fixed interaction.
+
+Bulk density is (R+12)/2 - (nabla Phi)²/2 - p Phi²/2, where
+ p=7385903388887613/18014398509481984.
+Both wall terms are -tau_i(Phi) -(D chi_i)²/2 -chi_i²/2 -(D theta_i)²/4.
+Set chi_i=0 and currents zero in the background. Both embedding variations and
+the original finite-wall equations remain. Lower tau_a=LA+10(Phi-v0)^2 with
+ LA=6755388606266369/1125899906842624,
+ v0=3602879701896397/36028797018963968.
+The original upper wall used LB=-851862101055633/140737488355328 and
+ v1=6520040733916207/72057594037927936 in tau_b=LB+10(Phi-v1)^2.
+
+Only the upper lambda and v change. Define k0=1/100000000, D0=1/5.
+Let A0 be the unique root in [23/250,93/1000] of
+ K(A)=H_a(A)^2-1-T_a(A)^2/12+p A^2/12=k0,
+ H_a(A)=-tau_a(A)/6, T_a(A)=10(A-v0).
+Define B0=Phi(D0), H0=H(D0), T0=T(D0) by the IVP below, started at
+ (log a,H,Phi,T)=(0,H_a(A0),A0,T_a(A0)).
+ tau_b=6H0-2T0(Phi-B0)+10(Phi-B0)^2
+      = LB_new+10(Phi-v1_new)^2,
+ LB_new=6H0-T0^2/10, v1_new=B0+T0/10.
+These are once-fixed exact real constants specified by a unique root and IVP.
+Subsequent stationary shoots for this action keep these constants frozen.
+
+Proper-distance coordinate s runs over [0,D0]. With W=log a and T=Phi',
+ W'=H, H'=-T²/3-k exp(-2W), Phi'=T, T'=p Phi-4HT.
+The exact Hamiltonian is H²=1+T²/12-p Phi²/12+k exp(-2W).
+It holds at launch by construction, and its residual has zero derivative
+by the IVP. The lower conditions H=-tau_a/6 and T=tau_a'/2 hold by
+launch, and the upper H=tau_b/6 and T=-tau_b'/2 hold by definition.
+This is a finite-potential wall system. Scalar traces are free in the radial
+form domain and satisfy the finite wall equations at eigenprofiles.
+
+The target proof uses the inherited PHYSICAL_FORM_V3 / VARIATION_V4 radial
+domain and weak spectral correspondence. No divisions by E or mu+4k and
+no reused old negative-index formula. Numerical enclosures, full-spectrum
+coercivity checks, and reciprocal challenge are separate records.

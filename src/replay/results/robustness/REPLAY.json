@@ -1,0 +1,56 @@
+{
+  "start_utc": "2026-11-08T13:12:33.887327+00:00",
+  "stages": [
+    {
+      "stage": "witness",
+      "command": [
+        "python3",
+        "-B",
+        "single_coefficient_v003.py"
+      ],
+      "timeout": 900,
+      "exit_code": 0,
+      "seconds": 1.4244749180215877,
+      "child_reaped": true,
+      "result_sha256": "3f82a29f1536023f702d00bdea2fa8ceb2ebac2fc674d19216c1ed8cd2e4ae2e",
+      "pass": true
+    },
+    {
+      "stage": "interval",
+      "command": [
+        "python3",
+        "-B",
+        "single_coefficient_branch_v003.py"
+      ],
+      "timeout": 900,
+      "exit_code": 0,
+      "seconds": 19.20317742601037,
+      "child_reaped": true,
+      "result_sha256": "0ce3dfc51104d72837965002c545b673b386f17c39330d8dad0433dc6de619fb",
+      "pass": true
+    },
+    {
+      "stage": "material",
+      "command": [
+        "python3",
+        "-B",
+        "full_material_box_v003.py",
+        "--config",
+        "CONFIG_full_material_box_v003_narrow.json"
+      ],
+      "timeout": 900,
+      "exit_code": 0,
+      "seconds": 2.360983166989172,
+      "child_reaped": true,
+      "result_sha256": "7a0a922056e1d9a020f0e4042d32317153b358f913a5f5953cfd4c9ebd0c0ae1",
+      "pass": true
+    }
+  ],
+  "cpus": [
+    0
+  ],
+  "pass": true,
+  "historical_files_modified": false,
+  "end_utc": "2026-11-08T13:12:56.883509+00:00",
+  "all_started_children_reaped": true
+}

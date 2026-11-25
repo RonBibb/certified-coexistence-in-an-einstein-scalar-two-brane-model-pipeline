@@ -1,0 +1,12 @@
+{
+  "tag": "lowest_mass_v003_repair2",
+  "start_utc": "2026-11-07T08:35:11.813377+00:00",
+  "cutoff_utc": "2026-11-07T10:04:54.869286+00:00",
+  "requested_cores": 1,
+  "requested_timeout": 120,
+  "science_started": false,
+  "pid": 301454,
+  "queue": false,
+  "error": "BlockingIOError(11, 'Resource temporarily unavailable')",
+  "end_utc": "2026-11-07T08:35:11.814842+00:00"
+}

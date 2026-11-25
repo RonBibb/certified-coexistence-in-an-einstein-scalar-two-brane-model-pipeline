@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "checks": {
+    "(0, 0)": true,
+    "(0, 1)": true,
+    "(1, 1)": true,
+    "(2, 2)": true
+  },
+  "seconds": 1.2472447920008563,
+  "scope": "Unrestricted homogeneous scalar-coordinate linearization, arbitrary radial profiles and r,h. General-harmonic proof is analytic.",
+  "cpus": [
+    0
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "tag": "coupled_v002",
+  "start_utc": "2026-11-07T08:21:10.451459+00:00",
+  "cutoff_utc": "2026-11-07T10:04:54.869286+00:00",
+  "requested_cores": 1,
+  "requested_timeout": 120,
+  "science_started": true,
+  "pid": 298619,
+  "queue": false,
+  "cpus": [
+    0
+  ],
+  "memory_available_KiB": 29232740,
+  "disk_available_bytes": 5030518784,
+  "native_work": "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/coupled_v002",
+  "source_hashes": {
+    "coupled_v002.py": "7691ea4b68c5f07d0ee6b89704669b5981df66bc0264eec97bf1d00712437a2a",
+    "bg_independent.py": "d198c6e98d949190d479a33b3c5aadaee2021982e03141d0c1d252a0c370e044",
+    "lease_run.py": "9d2129bcc4168825e3fc91697924eeca414664457b1ce5142c620d9bc1372b44",
+    "background_v001.py": "4336d1d86ec593cf27680c83e1b09f26439b972c5861caad2e105cba531c1c1c",
+    "fixed_background.py": "0298a3212bd4e5bfbded21f3b76f715cc402f9069e40f7f58b3191fd969215f1",
+    "neighborhood_v001.py": "b42dd2164dc3c997fed4a3d965d635bf6fc97d2eb158c0fb5ea20b4ee3d186de",
+    "CONFIG_source_anchor_v002.json": "aa80450b984a4519073cbf3ca3145ef5cd982d0110af6bad6163373cc9c6bdd8",
+    "CONFIG_coupled_v002.json": "44241439c64c3ae6ed274f1469a8e2d799576a854624d920b4fb210f61c369c7",
+    "CONFIG_background_v001.json": "ac78b921ccbc419bb851d56865b6f321f7e2ebc56c67713541b503212b8c30d7",
+    "CONFIG_neighborhood_v001.json": "78dc34dea2b20eef9a3f0c9e2dd20cdb2b7a52116b3cb132bd243875555ee6db",
+    "ACTION_v001.txt": "927cd35df8bef9511e9076f53a273b33d1dd84e9e2b25f4c0daca2069192ea84",
+    "ACTION_v002.txt": "645640eaf95cc76d579c04705dbddbd756a7bab6985192e8281fdad5d7fa3b8f",
+    "CANDIDATE_v001.json": "4fc2cf10961b11605aefd877c94f85a55804af7b1e94c3524ac8b5feb20d5683",
+    "CANDIDATE_v002.json": "00d4dcac14633e2624b8ff7263f07d5a38c24b07efc718141e5f65436ec41100",
+    "START.json": "4654cc004f0bb611f28cf79f1f8e22197299bd1cb06050ae7e2a80a6fc3a1af4"
+  },
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/coupled_v002/coupled_v002.py"
+  ],
+  "actual_executable": "/usr/bin/python3",
+  "executable_sha256": "d1b87c365d0cf5a985cfedfc227ff613a5bc6ff56e841202eb9330d263bbeee9",
+  "platform": "Linux-7.0.0-42-generic-aarch64-with-glibc2.43",
+  "thread_limits": 1,
+  "environment": {
+    "PYTHONPATH": "/home/parallels/research-runs/cap-interval-arb-2026-09-12:/home/parallels/codex-precision-venv/lib/python3.12/site-packages",
+    "STUDY_CPUS": "0",
+    "OMP_NUM_THREADS": "1"
+  },
+  "child_pid": 298625,
+  "exit_code": 0,
+  "child_reaped": true,
+  "wall_seconds": 24.056880469986936,
+  "end_utc": "2026-11-07T08:21:34.548782+00:00",
+  "child_cpu_seconds": 24.049442
+}

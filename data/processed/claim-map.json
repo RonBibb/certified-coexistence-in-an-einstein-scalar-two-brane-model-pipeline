@@ -1,0 +1,12 @@
+{
+  "original_action": "stabilization/01_stable_background/ACTION_v003.txt",
+  "obstruction": "stabilization/02_stability_certificate/EXISTING_ACTIONS_EXCLUSION_v002.txt",
+  "nominal_witness": "stabilization/01_stable_background/native_results/single_coefficient_v003/SINGLE_COEFFICIENT_v003_RESULT.json",
+  "material_box": "stabilization/01_stable_background/native_results/full_material_box_v003_narrow/FULL_MATERIAL_BOX_v003_RESULT.json",
+  "continuum_pair": "stabilization/02_stability_certificate/native_results/vev_coexistence_full_v001_retry1/VEV_COEXISTENCE_RESULT.json",
+  "direct_pair": "stabilization/02_stability_certificate/native_results/fixed_v_direct_v001_retry1/FIXED_V_DIRECT.json",
+  "integer_pair": "stabilization/02_stability_certificate/native_results/fixed_v_dyadic_v001/FIXED_V_DYADIC.json",
+  "finite_fold": "stabilization/02_stability_certificate/native_results/vev_fold_finite_v001/VEV_FOLD_FINITE.json",
+  "physical_correspondence": "foundation/GAUGE_EMBEDDING_DERIVATION.txt",
+  "coordinate_checks": "coordinate/AUDIT_REPORT.txt"
+}

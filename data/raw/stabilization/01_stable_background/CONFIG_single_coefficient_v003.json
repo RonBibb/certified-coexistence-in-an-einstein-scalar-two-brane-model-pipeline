@@ -1,0 +1,12 @@
+{
+  "action":"ACTION_v003.txt",
+  "source_enclosures":"CONFIG_coupled_anchor_binding_v002.json",
+  "k":"1/20000",
+  "D_bracket":["2/5","1/2"],
+  "steps":128,
+  "taylor_order":7,
+  "precision_bits":256,
+  "root_bisections":44,
+  "max_event_width":"1/10000000000",
+  "required":"Validated whole-path bounds, strict residual signs and derivative, exact coupled upper matching, one changed coefficient and full positive gap"
+}

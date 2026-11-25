@@ -1,0 +1,6 @@
+{
+  "source_definition": "publication_updates/20261106_JMP_reference_update/manuscript/tex/source/main-body.tex Appendix A, Table II and equation A1",
+  "source_material": "publication_updates/20261106_JMP_reference_update/manuscript/tex/source/supplement-body.tex equation S6",
+  "source_root_evidence": "pipeline/data/raw/neutral-certificates/background/background_regeneration/output/independent_RESULT.json, fine root box",
+  "root_identity_assumption": "The existing unique root in the named original exact A,D box is the definition of C_a and C_b. Fresh interval proof intersects that original box."
+}

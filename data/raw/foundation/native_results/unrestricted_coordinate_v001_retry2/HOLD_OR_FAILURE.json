@@ -1,0 +1,12 @@
+{
+  "tag": "unrestricted_coordinate_v001_retry2",
+  "start_utc": "2026-11-08T07:24:54.580065+00:00",
+  "cutoff_utc": "2026-11-08T09:08:04.405941+00:00",
+  "requested_cores": 1,
+  "requested_timeout": 180,
+  "science_started": false,
+  "pid": 564829,
+  "queue": false,
+  "error": "AssertionError('memory/disk admission failed')",
+  "end_utc": "2026-11-08T07:24:54.581066+00:00"
+}

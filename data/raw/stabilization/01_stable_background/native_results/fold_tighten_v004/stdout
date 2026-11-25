@@ -1,0 +1,2 @@
+FLINT exception (General error):
+    exception: arf_get_fmpq: cannot convert to rational

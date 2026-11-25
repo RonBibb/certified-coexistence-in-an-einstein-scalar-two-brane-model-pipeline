@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-07T08:46:46.463505+00:00",
+  "source_native": "/home/parallels/research-runs/paper-a-stability-20261107T080458Z/vev_coexistence_full_v001_retry1/VEV_COEXISTENCE_RESULT.json",
+  "source_sha256": "8ffd813208550ac30c5c1966dd85c6c23dad410926a62e59be58c23985760dea",
+  "max_refinements": 12,
+  "A_width_target": "1/10000000000",
+  "A_radius": "1/200000",
+  "mass_radius": "1/50000",
+  "v_radius_target": "1/10000000000",
+  "budget": {
+    "cores": 1,
+    "timeout": 300
+  },
+  "sha256": {
+    "vev_fold_finite.py": "ed78ae3e688fc8ef3eb0759d64c43a24f3c1e282c3a9534900c08c4ea4de5724",
+    "VEV_FOLD_FINITE_RATE_v001.txt": "afbb0c1d98bd8b5a3de74b8f1c41a1fcc482ed623880d0c266e46f9b9eced78c",
+    "vev_coexistence.py": "befa5f3635516f1545e654004c7645fbe9646a8d5b6be0c4f184059a6188fb69",
+    "CONFIG_vev_coexistence_v001.json": "b34b4cff7c0709e97f58138413cbc83b68bc927f44512ba00664d642957c496f",
+    "ivp_engine.py": "d198c6e98d949190d479a33b3c5aadaee2021982e03141d0c1d252a0c370e044",
+    "lease_run.py": "32d5131363985c4e8f36e03e7ab6bc1ea5ebafc5d0e1e8d8f9b82439c29cd9a8",
+    "START.json": "fc23203d619ccfd523243673e2a95c03f909c39cb0a12892fdf298af17d75414"
+  }
+}

@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003/lowest_mass_v003.py", line 111, in <module>
+    main()
+    ~~~~^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003/lowest_mass_v003.py", line 85, in main
+    flo,fhi=point(lo),point(hi)
+            ~~~~~^^^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003/lowest_mass_v003.py", line 81, in point
+    res,m,q=mass_flow(A,ca,p,k0,Dl,Dr,arb(mu),config['steps'])
+            ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003/lowest_mass_v003.py", line 49, in mass_flow
+    box,_=integrator.picard_box(y,h)
+          ~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003/bg_independent.py", line 226, in picard_box
+    initial_rhs = rhs(initial)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003/lowest_mass_v003.py", line 40, in combined
+    base=rhs(z[:6])
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003/fixed_background.py", line 42, in rhs
+    q=y[n*(group+1):n*(group+2)];Wq,Hq,phiq,Tq,Zq,kq=q[:6]
+                                 ^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 6, got 0)

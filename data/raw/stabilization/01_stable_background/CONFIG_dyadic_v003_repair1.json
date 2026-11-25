@@ -1,0 +1,12 @@
+{
+  "action":"ACTION_v003.txt",
+  "anchor":"CONFIG_coupled_anchor_binding_v002.json",
+  "nominal_reference":"CONFIG_single_coefficient_nominal_binding_v003.json",
+  "k":"1/20000",
+  "D_bracket":["2/5","1/2"],
+  "mass_sign_bracket":["567/100000","569/100000"],
+  "steps":128,
+  "order":7,
+  "max_D_width":"1/100000000",
+  "required":"No Arb. Outward integer fixed-point cells with a and reciprocal warp independent. Rebuild linked stationary upper event and check strict positive/negative signs of first finite-wall mass residual."
+}

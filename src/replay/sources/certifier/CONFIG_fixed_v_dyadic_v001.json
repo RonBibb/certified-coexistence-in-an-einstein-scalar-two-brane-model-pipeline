@@ -1,0 +1,45 @@
+{
+  "anchor": "CONFIG_dyadic_anchor_v001.json",
+  "v": "-303/10000",
+  "radii": [
+    "1/100000000",
+    "1/500000"
+  ],
+  "steps": 256,
+  "order": 7,
+  "stable": {
+    "center": [
+      ".09767186990",
+      ".79360170082"
+    ],
+    "branch_A": [
+      ".0976",
+      ".0977"
+    ],
+    "mass": [
+      "1/10000",
+      "3/10000"
+    ]
+  },
+  "unstable": {
+    "center": [
+      ".09804244210",
+      ".87019740933"
+    ],
+    "branch_A": [
+      ".098",
+      ".0981"
+    ],
+    "mass": [
+      "-1/4000",
+      "-1/10000"
+    ]
+  },
+  "source_sha256": {
+    "dyadic_interval.py": "c40444a1fb2eb80d59ab41561b381c398c5151057803d9a1e4d641f15d42a6c6",
+    "dyadic_v003_repair3.py": "f12913ef5aba856c6ad43e5f6bc359b384276f24add1fc0f759d4d9de7a632db",
+    "fixed_v_dyadic.py": "674178f11e27b08ed61de6907c02b9dacdaeb6ef7634d92f8d7a20ae10a32e24",
+    "CONFIG_dyadic_anchor_v001.json": "44b7ab493a2ab453b5a02f099cc3a3d8f5edd0f73cae086cc1fa22da7682a9d5"
+  },
+  "protocol_sha256": "b2a85d4565737f4596826f2efdbd79580fdff124bba393441f7e031072893d37"
+}

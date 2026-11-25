@@ -1,0 +1,28 @@
+{
+  "cover": {
+    "path": "vev_coexistence_full_v001_retry1/VEV_COEXISTENCE_RESULT.json",
+    "sha256": "8ffd813208550ac30c5c1966dd85c6c23dad410926a62e59be58c23985760dea"
+  },
+  "fold": {
+    "path": "vev_fold_finite_v001/VEV_FOLD_FINITE.json",
+    "sha256": "2a584d396b98276fa9fd0f11351cfb6813a0510ecbe3fa923d275dd701a382e8"
+  },
+  "direct": {
+    "path": "fixed_v_direct_v001_retry1/FIXED_V_DIRECT.json",
+    "sha256": "423cebb3f8cce4862973259d1d92b9d5c33d834d05c23759339106126ef7ffbd"
+  },
+  "direct_stable": {
+    "path": "fixed_v_direct_v001_retry1/CASE_stable.json",
+    "sha256": "289527885d8f7a7af0b6956647ba43b43ee4740d54c823f91ca8c08b2fec3cf8"
+  },
+  "direct_unstable": {
+    "path": "fixed_v_direct_v001_retry1/CASE_unstable.json",
+    "sha256": "dfe1e7a8a50fe36290414cbd8090c0e130c90c89cbf0cb5893a039e1f65aaf25"
+  },
+  "direct_v": "-303/10000",
+  "source_sha256": "a567542b91dc48ac67122ec61b0c22b45f00a16018a338b82d17bb4316ee5936",
+  "dyadic": {
+    "path": "fixed_v_dyadic_v001/FIXED_V_DYADIC.json",
+    "sha256": "5f0bf59b71089093cac098761dd5f7de9fa42260400d9b50b1892548b06ceaa6"
+  }
+}

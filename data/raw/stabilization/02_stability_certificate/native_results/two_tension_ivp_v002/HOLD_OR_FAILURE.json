@@ -1,0 +1,12 @@
+{
+  "tag": "two_tension_ivp_v002",
+  "start_utc": "2026-11-07T08:21:24.105846+00:00",
+  "cutoff_utc": "2026-11-07T10:04:58.480635+00:00",
+  "requested_cores": 1,
+  "requested_timeout": 180,
+  "science_started": false,
+  "pid": 298714,
+  "queue": false,
+  "error": "BlockingIOError(11, 'Resource temporarily unavailable')",
+  "end_utc": "2026-11-07T08:21:24.106877+00:00"
+}

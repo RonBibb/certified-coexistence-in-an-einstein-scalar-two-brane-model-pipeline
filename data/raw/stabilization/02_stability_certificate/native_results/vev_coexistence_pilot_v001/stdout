@@ -1,0 +1,16 @@
+{"kind": "stable", "index": 0, "passed": true, "error": null, "seconds": 2.9544610009907046}
+{"kind": "stable", "index": 8, "passed": true, "error": null, "seconds": 3.0020348350080894}
+{"kind": "stable", "index": 15, "passed": true, "error": null, "seconds": 3.0113104180054506}
+{"kind": "stable", "index": "left", "passed": true, "error": null, "seconds": 2.987649792994489}
+{"kind": "stable", "index": "right", "passed": true, "error": null, "seconds": 3.0368640429951483}
+{"kind": "unstable", "index": 0, "passed": true, "error": null, "seconds": 3.264534667992848}
+{"kind": "unstable", "index": 8, "passed": true, "error": null, "seconds": 3.2942155850032577}
+{"kind": "unstable", "index": 15, "passed": true, "error": null, "seconds": 3.328956751996884}
+{"kind": "unstable", "index": "left", "passed": true, "error": null, "seconds": 3.271019334992161}
+{"kind": "unstable", "index": "right", "passed": true, "error": null, "seconds": 3.3673720020015026}
+{"kind": "fold", "index": 0, "passed": true, "error": null, "seconds": 7.330671545001678}
+{"kind": "fold", "index": 8, "passed": true, "error": null, "seconds": 7.442566087003797}
+{"kind": "fold", "index": 15, "passed": true, "error": null, "seconds": 7.4997880029986845}
+{"kind": "fold", "index": "left", "passed": true, "error": null, "seconds": 7.45223841999541}
+{"kind": "fold", "index": "right", "passed": true, "error": null, "seconds": 7.481201296002837}
+{"all_cases_pass": true, "full_cover": false, "certified": false, "common_v": ["-15151/500000", "-15149/500000"], "stable_gap_test": "1/100000", "cells_each": 16, "scope": "Whole parameter slabs only; a pilot never proves continuum, same-action or unique fold."}

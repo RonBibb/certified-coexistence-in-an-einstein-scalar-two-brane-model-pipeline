@@ -1,0 +1,13 @@
+{
+  "action": "ACTION_v001.txt",
+  "candidate": "CANDIDATE_v001.json",
+  "launch_bracket": ["23/250", "93/1000"],
+  "curvature": "1/100000000",
+  "separation": "1/5",
+  "exact_bisections": 120,
+  "precision_bits": 256,
+  "taylor_order": 7,
+  "steps": [64, 128],
+  "maximum_action_coefficient_diameter": "1/100000000000",
+  "required": "Exact lower root signs and monotonicity, strict box and gap checks, overlap of both outward enclosures, fixed upper coefficients enclosable"
+}

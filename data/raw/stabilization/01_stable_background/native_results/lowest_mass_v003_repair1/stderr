@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003_repair1/lowest_mass_v003_repair1.py", line 109, in <module>
+    main()
+    ~~~~^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003_repair1/lowest_mass_v003_repair1.py", line 87, in main
+    f=point(m)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003_repair1/lowest_mass_v003_repair1.py", line 79, in point
+    res,m,q=mass_flow(A,ca,p,k0,Dl,Dr,arb(mu),config['steps'])
+            ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003_repair1/lowest_mass_v003_repair1.py", line 47, in mass_flow
+    box,_=integrator.picard_box(y,h)
+          ~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003_repair1/bg_independent.py", line 240, in picard_box
+    raise RuntimeError(f"Picard enclosure failed after {MAX_PICARD_ITERATIONS} iterations")
+RuntimeError: Picard enclosure failed after 32 iterations

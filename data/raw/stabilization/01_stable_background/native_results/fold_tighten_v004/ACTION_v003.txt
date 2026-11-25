@@ -1,0 +1,26 @@
+ACTION v003 — change only the upper scalar vacuum value
+
+Keep the exact original selected coupled action from ACTION_v002, including
+both original S6 oscillator interactions, current functions, both bare
+tension constants, both bare scalar Hessians, and the entire lower wall.
+Use the same exact initial launch A2, H_a, T_a and k0=1/20000 from the
+coupled lower-wall Hamiltonian. Continue the same IVP to a new D.
+
+Let B=Phi(D), X=T(D)+(B-C_b)/4, where C_b is the unchanged original
+central anchor in the interaction and current function. Define
+ g(D)=6H(D)-LB_original-(B-C_b)^2/4-X^2/10.
+Select the unique exact g root in [2/5,1/2]. This event and its signs are
+to be verified by native outward integration. Then set the one changed
+constant v1_new=B+X/10. Freeze it once. The upper wall function is
+ tau_b(Phi)=LB_original+10(Phi-v1_new)^2.
+The upper stationary reduced tension U_b is tau_b+(Phi-C_b)^2/4.
+At the root U_b(B)=6H_b and U_b'(B)=-2T_b. The lower two rows and bulk
+Hamiltonian already hold by launch and propagation. Both chi equilibrium
+values are (Phi_i-C_i)/2, with independent chi perturbations retained.
+Both currents vanish and both positive-kinetic phases remain.
+
+The event is not a retuning across the finished action's perturbations
+or backgrounds. It defines a single exact replacement for the original
+upper scalar vacuum value. The selected root D is an equilibrium of
+that fixed action. V3/V4 generic physical radial assumptions are shared
+with ACTION_v001 and ACTION_v002.

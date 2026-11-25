@@ -1,0 +1,9 @@
+{
+  "exit_codes": {
+    "einstein": 0,
+    "scalar": 0,
+    "wall": 0,
+    "constraints": 0
+  },
+  "all_reaped": true
+}

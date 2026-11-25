@@ -1,0 +1,10 @@
+{
+  "status": "EXACT_SINGLE_COEFFICIENT_CONSTRUCTION_PUBLISHED_NATIVE_CHECKS_PENDING",
+  "action": "ACTION_v003.txt",
+  "curvature": "1/20000",
+  "launch": "Identical to ACTION_v002 with fixed S6 functions and original lower wall",
+  "unique_upper_match_bracket": ["2/5", "1/2"],
+  "changed_constant": "v1, the upper bare scalar vacuum value",
+  "unchanged": "p, both additive tensions and scalar Hessians, v0, both original S6 oscillator/current functions",
+  "required": "Outward whole-path geometry, strict transverse g-event, both exact upper rows, positive full nonphase gap and phase kernel"
+}

@@ -1,0 +1,12 @@
+{
+  "tag": "vev_coexistence_full_v001",
+  "start_utc": "2026-11-07T08:42:59.433013+00:00",
+  "cutoff_utc": "2026-11-07T10:04:58.480635+00:00",
+  "requested_cores": 4,
+  "requested_timeout": 900,
+  "science_started": false,
+  "pid": 302964,
+  "queue": false,
+  "error": "BlockingIOError(11, 'Resource temporarily unavailable')",
+  "end_utc": "2026-11-07T08:42:59.433905+00:00"
+}

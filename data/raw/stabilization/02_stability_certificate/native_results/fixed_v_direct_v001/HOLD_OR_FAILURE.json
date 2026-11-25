@@ -1,0 +1,12 @@
+{
+  "tag": "fixed_v_direct_v001",
+  "start_utc": "2026-11-07T08:50:24.182651+00:00",
+  "cutoff_utc": "2026-11-07T10:04:58.480635+00:00",
+  "requested_cores": 2,
+  "requested_timeout": 600,
+  "science_started": false,
+  "pid": 304414,
+  "queue": false,
+  "error": "BlockingIOError(11, 'Resource temporarily unavailable')",
+  "end_utc": "2026-11-07T08:50:24.183514+00:00"
+}

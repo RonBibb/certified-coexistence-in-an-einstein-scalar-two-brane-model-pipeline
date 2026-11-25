@@ -1,0 +1,21 @@
+{
+  "action":"ACTION_v003.txt",
+  "anchor_binding":"CONFIG_coupled_anchor_binding_v002.json",
+  "nominal_binding":"CONFIG_single_coefficient_nominal_binding_v003.json",
+  "centre_A":"932184204486264/10000000000000000",
+  "centre_D":"446948362260060/1000000000000000",
+  "centre_v1":"-26059150957962/1000000000000000",
+  "radius_A":"3/1000000",
+  "radius_D":"1/5000",
+  "radii":{
+    "p":"1/4000000", "LA":"1/400000000", "LB":"1/400000000",
+    "v0":"1/40000000", "v1":"1/40000000",
+    "gamma_a":"1/400000", "gamma_b":"1/400000",
+    "omega2_a":"1/400000", "beta_a":"1/400000", "eta_a":"1/400000",
+    "omega2_b":"1/400000", "beta_b":"1/400000", "eta_b":"1/400000"
+  },
+  "steps":128,
+  "taylor_order":7,
+  "precision_bits":256,
+  "required":"Open independent thirteen-parameter action box, physical material restoration and phases, strict uniform contraction, long-box full gap"
+}

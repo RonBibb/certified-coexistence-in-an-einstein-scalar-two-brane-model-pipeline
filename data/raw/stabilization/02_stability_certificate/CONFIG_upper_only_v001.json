@@ -1,0 +1,14 @@
+{
+  "control_literals": "CONFIG_controls_v001.json",
+  "family_source_native": "/home/parallels/research-runs/paper-a-background-maturity-20261106T224019Z/wide640_primary_v1/RESULT.json",
+  "family_source_sha256": "d569b20a4e625a9e03c4e41a0d5ed60143479defc49fb5c00a05d9a698b22c6a",
+  "A_star_manuscript_exact": ["456607025194779413/4611686018427387904","114151756532473697/1152921504606846976"],
+  "launch_bracket": ["23/250","93/1000"],
+  "k":"1/100000000",
+  "D":"1/5",
+  "steps":512,
+  "target_gap_round":"1/7100",
+  "mass_bracket":["1/100000","1/50"],
+  "mass_width_target":"1/100000",
+  "bisections_max":16
+}

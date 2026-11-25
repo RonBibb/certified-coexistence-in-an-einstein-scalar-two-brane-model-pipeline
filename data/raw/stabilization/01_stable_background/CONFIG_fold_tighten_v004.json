@@ -1,0 +1,13 @@
+{
+  "fold_evidence":"CONFIG_fold_geometry_evidence_v004.json",
+  "source_enclosures":"CONFIG_coupled_anchor_binding_v002.json",
+  "D_bracket":["4/5","22/25"],
+  "test_same_action_interval":["-303360/10000000","-303358/10000000"],
+  "witness_fixed_v":"-303359/10000000",
+  "left_A_bracket":["97853/1000000","97857/1000000"],
+  "right_A_bracket":["97886/1000000","97890/1000000"],
+  "steps":192,
+  "taylor_order":7,
+  "precision_bits":256,
+  "required":"Exact algebra controls, tighter min via geometric slope bound, same-action open interval and two disjoint explicit launch brackets for its midpoint"
+}

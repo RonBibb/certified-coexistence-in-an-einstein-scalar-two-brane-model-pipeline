@@ -1,0 +1,12 @@
+{
+  "tag": "unrestricted_coordinate_v001",
+  "start_utc": "2026-11-08T08:12:46.879471+00:00",
+  "cutoff_utc": "2026-11-08T09:08:04.405941+00:00",
+  "requested_cores": 1,
+  "requested_timeout": 180,
+  "science_started": false,
+  "pid": 581287,
+  "queue": false,
+  "error": "BlockingIOError(11, 'Resource temporarily unavailable')",
+  "end_utc": "2026-11-08T08:12:46.881473+00:00"
+}

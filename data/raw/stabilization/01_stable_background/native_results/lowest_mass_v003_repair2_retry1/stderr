@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003_repair2_retry1/lowest_mass_v003_repair2.py", line 137, in <module>
+    main()
+    ~~~~^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003_repair2_retry1/lowest_mass_v003_repair2.py", line 115, in main
+    f=point(m)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003_repair2_retry1/lowest_mass_v003_repair2.py", line 106, in point
+    res,m,_,splits=mass_flow(A,ca,p,k0,Dl,Dr,arb(mu),config['steps'])
+                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003_repair2_retry1/lowest_mass_v003_repair2.py", line 77, in mass_flow
+    y=advance(y,h)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003_repair2_retry1/lowest_mass_v003_repair2.py", line 65, in advance
+    box,_=integrator.picard_box(state,step)
+          ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003_repair2_retry1/bg_independent.py", line 232, in picard_box
+    enclosure_rhs = rhs(enclosure)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003_repair2_retry1/lowest_mass_v003_repair2.py", line 51, in combined
+    q=reciprocal(T)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003_repair2_retry1/lowest_mass_v003_repair2.py", line 30, in reciprocal
+    require(maximum(value)<0,'strict nonzero T for metric chart')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003_repair2_retry1/background_v001.py", line 16, in require
+    raise AssertionError(label)
+AssertionError: strict nonzero T for metric chart

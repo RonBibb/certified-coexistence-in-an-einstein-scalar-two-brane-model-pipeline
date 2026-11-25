@@ -1,0 +1,24 @@
+EXECUTED CLEAN-EXTRACTION SCOPE, 8 NOVEMBER 2026
+
+Core run: PASS. Fresh anchor contraction, rational pair, full 54-case
+continuum, finite fold consuming fresh continuum, and integer pair.
+Ancillary run: PASS. Nominal witness, 12-cell interval, and narrow material box.
+Both used one native Linux core, CPython 3.14.4, python-flint 0.9.0/FLINT 3.6.0.
+Runtime/source hashes and exact outputs are in results/core and
+results/robustness. New output directories came from independently extracted
+ZIPs, with no dependence on historical absolute candidate paths or clocks.
+
+The core run tested the adapter before the three ancillary modes were added.
+The ancillary run tested that extension; the central stage commands and
+all numerical implementation files were unchanged. INPUTS.json in each run
+binds precisely the tested revision. The final adapter adds no new arithmetic.
+The original anchor check gives initial weighted row bounds below 0.001577
+and 0.000188; later rows are smaller. Its exact center enclosures are contained
+in the shared downstream action inputs.
+
+The existing pinned arithmetic installation was used. A fresh network wheel
+installation and architectures other than Linux aarch64 were not tested.
+These executions replay the original methods and do not constitute an
+independent specialist proof audit or external peer review. Historical
+manuscripts, certificate inputs and failed attempts were preserved unchanged.
+All owned worker processes exited and host leases were released.

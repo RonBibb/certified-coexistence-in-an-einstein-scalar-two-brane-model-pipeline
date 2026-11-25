@@ -1,0 +1,10 @@
+{
+  "control_literals":"CONFIG_controls_v001.json",
+  "step":"1/20000",
+  "A_center":"12/125",
+  "k_center":"1/2000000",
+  "A_inverse_radius":"1/1000000",
+  "k_inverse_radius":"1/2500000",
+  "target_k":"1/100000000",
+  "expected_preconditioner_defect_upper":"1/2"
+}

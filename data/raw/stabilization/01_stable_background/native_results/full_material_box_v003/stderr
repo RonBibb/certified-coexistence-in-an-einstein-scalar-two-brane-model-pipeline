@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/full_material_box_v003/full_material_box_v003.py", line 133, in <module>
+    main()
+    ~~~~^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/full_material_box_v003/full_material_box_v003.py", line 129, in main
+    require(accepted,'strict contraction and self-map')
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/full_material_box_v003/background_v001.py", line 16, in require
+    raise AssertionError(label)
+AssertionError: strict contraction and self-map

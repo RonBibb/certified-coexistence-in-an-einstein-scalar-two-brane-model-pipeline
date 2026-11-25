@@ -1,0 +1,36 @@
+{
+  "tag": "unrestricted_coordinate_v001_retry1",
+  "start_utc": "2026-11-08T08:25:45.431455+00:00",
+  "cutoff_utc": "2026-11-08T09:08:04.405941+00:00",
+  "requested_cores": 1,
+  "requested_timeout": 180,
+  "science_started": true,
+  "pid": 584426,
+  "queue": false,
+  "cpus": [
+    0
+  ],
+  "memory_available_KiB": 18214832,
+  "disk_available_bytes": 45357035520,
+  "native_work": "/home/parallels/research-runs/paper-a-coordinate-completion-20261108T081128Z/unrestricted_coordinate_v001_retry1",
+  "source_hashes": {
+    "unrestricted_controls.py": "50b531244a0253f492e2405ec9c64e59b1923ba560eadeb7ccb55252f4901e50",
+    "lease_run.py": "f84125397790f6423fc8e7ebb2a750640f04e6d439c2114d7ab5bbd348641ecd",
+    "START.json": "2d7445a938f511c22c21e46d43d3cdd92d00f5b52e04a3398c6283e7de89f4d2"
+  },
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/parallels/research-runs/paper-a-coordinate-completion-20261108T081128Z/unrestricted_coordinate_v001_retry1/unrestricted_controls.py"
+  ],
+  "actual_executable": "/usr/bin/python3",
+  "executable_sha256": "d1b87c365d0cf5a985cfedfc227ff613a5bc6ff56e841202eb9330d263bbeee9",
+  "platform": "Linux-7.0.0-42-generic-aarch64-with-glibc2.43",
+  "thread_limits": 1,
+  "environment": {
+    "PYTHONPATH": "/home/parallels/research-runs/cap-interval-arb-2026-09-12:/home/parallels/codex-precision-venv/lib/python3.12/site-packages",
+    "STUDY_CPUS": "0",
+    "OMP_NUM_THREADS": "1"
+  },
+  "child_pid": 584430
+}

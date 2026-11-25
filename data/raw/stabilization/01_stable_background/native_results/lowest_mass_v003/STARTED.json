@@ -1,0 +1,61 @@
+{
+  "tag": "lowest_mass_v003",
+  "start_utc": "2026-11-07T08:32:30.871377+00:00",
+  "cutoff_utc": "2026-11-07T10:04:54.869286+00:00",
+  "requested_cores": 1,
+  "requested_timeout": 90,
+  "science_started": true,
+  "pid": 300874,
+  "queue": false,
+  "cpus": [
+    0
+  ],
+  "memory_available_KiB": 29249832,
+  "disk_available_bytes": 5028048896,
+  "native_work": "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003",
+  "source_hashes": {
+    "coupled_v002.py": "7691ea4b68c5f07d0ee6b89704669b5981df66bc0264eec97bf1d00712437a2a",
+    "coupled_neighborhood_v002.py": "ccc01d320c80ddad198af36212c43f3e093d2b40ad6caef0d2bae25439b1b4a8",
+    "single_coefficient_v003.py": "561b017b054815219d0add463e377cfcd173cfbe1bf19ca44bd4f8e44c57c182",
+    "single_coefficient_branch_v003.py": "76458dfaaf66d378918f249fa03f8a88e369dcc066c47fc21d902d13771220e4",
+    "bg_independent.py": "d198c6e98d949190d479a33b3c5aadaee2021982e03141d0c1d252a0c370e044",
+    "lease_run.py": "9d2129bcc4168825e3fc91697924eeca414664457b1ce5142c620d9bc1372b44",
+    "lowest_mass_v003.py": "9bc29f49d21bb2724b468d2f11a26cb5df2b643560a7ec2ea826e0f6133a3b4d",
+    "background_v001.py": "4336d1d86ec593cf27680c83e1b09f26439b972c5861caad2e105cba531c1c1c",
+    "fixed_background.py": "0298a3212bd4e5bfbded21f3b76f715cc402f9069e40f7f58b3191fd969215f1",
+    "neighborhood_v001.py": "b42dd2164dc3c997fed4a3d965d635bf6fc97d2eb158c0fb5ea20b4ee3d186de",
+    "CONFIG_single_coefficient_branch_v003.json": "a1b0ec1aab6adeb937c496342d767829e737364234024e6bfeaf0119a92c8308",
+    "CONFIG_coupled_neighborhood_v002.json": "706a4ace6fc1dcbb7ce702b5670c8599794478744d91a89ea643fbb425c5c8f3",
+    "CONFIG_coupled_anchor_binding_v002.json": "44b7ab493a2ab453b5a02f099cc3a3d8f5edd0f73cae086cc1fa22da7682a9d5",
+    "CONFIG_single_coefficient_nominal_binding_v003.json": "4157bf3891e02a15928d651a696313e46c486ff587b884774f09eaeb07431c74",
+    "CONFIG_source_anchor_v002.json": "aa80450b984a4519073cbf3ca3145ef5cd982d0110af6bad6163373cc9c6bdd8",
+    "CONFIG_coupled_neighborhood_v002_narrow.json": "d85407685f4e41b7c48434029ed1882c7a9f337a850b1a6c7769038736fe51cd",
+    "CONFIG_coupled_v002.json": "44241439c64c3ae6ed274f1469a8e2d799576a854624d920b4fb210f61c369c7",
+    "CONFIG_background_v001.json": "ac78b921ccbc419bb851d56865b6f321f7e2ebc56c67713541b503212b8c30d7",
+    "CONFIG_single_coefficient_v003.json": "34a88a00a37ba8bc292f553675b9b05de98743bffa0eed629e5fa30c414632c1",
+    "CONFIG_lowest_mass_v003.json": "8f07cae73bfd719de11bf0868ba744397b5c77925e582ee8434104e2ddfdb9b1",
+    "CONFIG_neighborhood_v001.json": "78dc34dea2b20eef9a3f0c9e2dd20cdb2b7a52116b3cb132bd243875555ee6db",
+    "ACTION_v001.txt": "927cd35df8bef9511e9076f53a273b33d1dd84e9e2b25f4c0daca2069192ea84",
+    "ACTION_v002.txt": "645640eaf95cc76d579c04705dbddbd756a7bab6985192e8281fdad5d7fa3b8f",
+    "ACTION_v003.txt": "55d01967d1d0f066daf2117df57148cd52005bcb711516dd7c60f54772e71732",
+    "CANDIDATE_v001.json": "4fc2cf10961b11605aefd877c94f85a55804af7b1e94c3524ac8b5feb20d5683",
+    "CANDIDATE_v003.json": "0ba29765c01d76acf6db30a981721f64effbad7aa949c05e5a4715f3024bd0ab",
+    "CANDIDATE_v002.json": "00d4dcac14633e2624b8ff7263f07d5a38c24b07efc718141e5f65436ec41100",
+    "START.json": "4654cc004f0bb611f28cf79f1f8e22197299bd1cb06050ae7e2a80a6fc3a1af4"
+  },
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/lowest_mass_v003/lowest_mass_v003.py"
+  ],
+  "actual_executable": "/usr/bin/python3",
+  "executable_sha256": "d1b87c365d0cf5a985cfedfc227ff613a5bc6ff56e841202eb9330d263bbeee9",
+  "platform": "Linux-7.0.0-42-generic-aarch64-with-glibc2.43",
+  "thread_limits": 1,
+  "environment": {
+    "PYTHONPATH": "/home/parallels/research-runs/cap-interval-arb-2026-09-12:/home/parallels/codex-precision-venv/lib/python3.12/site-packages",
+    "STUDY_CPUS": "0",
+    "OMP_NUM_THREADS": "1"
+  },
+  "child_pid": 300878
+}

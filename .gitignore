@@ -1,0 +1,20 @@
+# Local environments and transient runs only; frozen evidence is tracked.
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/runs/
+/tmp/
+/build/
+# Editable article and supplement sources belong in the private parent.
+*.tex
+*.bib
+*.cls
+*.sty

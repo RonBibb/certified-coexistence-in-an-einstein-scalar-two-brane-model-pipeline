@@ -1,0 +1,23 @@
+{
+  "mode": "wall",
+  "pass": true,
+  "checks": {
+    "K_(0, 0)": true,
+    "K_(0, 1)": true,
+    "K_(1, 0)": true,
+    "K_(1, 1)": true,
+    "K_(2, 2)": true,
+    "K_(3, 3)": true,
+    "normal_scalar": true,
+    "pullback_scalar": true,
+    "induced_conformal": true,
+    "negative_control_bending_Hessian_detected": true
+  },
+  "residuals": {},
+  "seconds": 3.5316672930202913,
+  "pid": 585401,
+  "cpus": [
+    2
+  ],
+  "sympy": "1.14.0"
+}

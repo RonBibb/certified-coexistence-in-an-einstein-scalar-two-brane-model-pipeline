@@ -1,0 +1,9 @@
+{
+  "fixed_action_pair": "evidence/stabilization/02_stability_certificate/native_results/fixed_v_direct_v001_retry1/FIXED_V_DIRECT.json",
+  "fixed_action_pair_growth": "data/growth_rates.json; exact conversion of existing mass and curvature certificates; symbols at enclosure centers, not fits",
+  "integer_brackets": "evidence/stabilization/02_stability_certificate/native_results/fixed_v_dyadic_v001/FIXED_V_DYADIC.json",
+  "fold_envelopes": "VEV_FOLD_FINITE.json and FIXED_V_DIRECT.json; saved launch/action coverage and unchanged finite spectral bounds; no interpolation across gaps",
+  "whole_slab_residuals": "VEV_COEXISTENCE_RESULT.json, 16 whole slabs per kind; rectangles are enclosures, not statistical error bars",
+  "proof_structure": "Explanatory diagram, not numerical data",
+  "background_comparison": "data/background_profiles.json; floating-point fixed-midpoint IVPs, not interval trajectories"
+}

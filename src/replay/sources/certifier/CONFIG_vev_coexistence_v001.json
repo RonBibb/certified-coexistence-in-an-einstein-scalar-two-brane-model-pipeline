@@ -1,0 +1,13 @@
+{
+ "candidate_config":"CONFIG_v003_challenge_v001.json",
+ "stable":{"A":["976/10000","977/10000"],"mu_test":"1/100000","R_sign":1},
+ "unstable":{"A":["98/1000","981/10000"],"mu_test":"0","R_sign":-1},
+ "fold":{"A":["978/10000","979/10000"],"mu_test":"0","R_sign":0},
+ "cells_each":16,
+ "step":"1/1500",
+ "end":"1",
+ "common_v":["-15151/500000","-15149/500000"],
+ "positive_y_floor":"1/2",
+ "max_event_width":"1/200",
+ "max_event_refinements":12
+}

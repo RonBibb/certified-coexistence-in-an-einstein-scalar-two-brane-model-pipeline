@@ -1,0 +1,15 @@
+{
+  "mode": "scalar",
+  "pass": true,
+  "checks": {
+    "unrestricted_KG_spatial": true,
+    "negative_control_lapse_source_detected": true
+  },
+  "residuals": {},
+  "seconds": 3.5104509600205347,
+  "pid": 585400,
+  "cpus": [
+    1
+  ],
+  "sympy": "1.14.0"
+}

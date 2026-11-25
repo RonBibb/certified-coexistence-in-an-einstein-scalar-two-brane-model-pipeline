@@ -1,0 +1,23 @@
+{
+  "version": "20261124_AUTHOR_AFFILIATION_FOLLOWUP",
+  "utc": "2026-11-24T18:18:15.714750+00:00",
+  "status": "UNSUBMITTED_AUTHOR_DRAFT",
+  "documents": {
+    "main": {
+      "pages": 27,
+      "bytes": 763807,
+      "external_links": 26
+    },
+    "supplement": {
+      "pages": 11,
+      "bytes": 578706,
+      "external_links": 17
+    }
+  },
+  "submitted": false,
+  "scientific_solvers_run": 0,
+  "X5": "Conditional constrained Rayleigh bound in Appendix E; no exact-count claim",
+  "reviewer_package_current": false,
+  "affiliation": "Liberty University, Lynchburg, Virginia 24515, USA",
+  "revision_response": "REVISION_RESPONSE_20261124_FOLLOWUP.md"
+}

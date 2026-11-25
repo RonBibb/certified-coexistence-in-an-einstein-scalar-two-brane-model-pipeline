@@ -1,0 +1,23 @@
+{
+  "status": "EXACT_CONSTRUCTION_PUBLISHED_PROOF_AND_NATIVE_CONTROLS_IN_PROGRESS",
+  "action": "ACTION_v001.txt",
+  "original_action_screen": "ORIGINAL_ACTION_OBSTRUCTION_V1.txt",
+  "construction": {
+    "launch_scalar_root_bracket": ["23/250", "93/1000"],
+    "launch_scalar_root_equation": "H_a(A)^2-1-T_a(A)^2/12+p*A^2/12=1/100000000",
+    "warp_at_lower_wall": "1",
+    "positive_slice_curvature": "1/100000000",
+    "proper_separation": "1/5",
+    "wall_scalar_Hessians": ["20", "20"],
+    "changed_constants": ["upper scalar vacuum value", "upper tension constant"],
+    "independent_wall_degrees": ["chi_a", "chi_b", "theta_a", "theta_b"],
+    "exact_endpoint_construction": "upper tension and vacuum are constants defined by the unique exact IVP endpoint in ACTION_v001.txt"
+  },
+  "prospective_acceptance": {
+    "curvature": "strictly positive with positive warp and monotone scalar",
+    "whole_trajectory_box": "3/4 <= a <= 1; -11/10 <= H <= -9/10; 0 < Phi <= 1/10; 1/20 <= -T <= 1/4",
+    "gap": "strictly positive for all nonsymmetry degrees in the declared radial form",
+    "symmetry_zero_multiplicity": 2,
+    "remaining_checks": ["root, whole-path and frozen action enclosures", "coercivity constants and complete domain", "finite fixed-coefficient neighborhood", "reciprocal critique"]
+  }
+}

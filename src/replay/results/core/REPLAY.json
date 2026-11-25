@@ -1,0 +1,89 @@
+{
+  "start_utc": "2026-11-08T13:05:07.428111+00:00",
+  "stages": [
+    {
+      "stage": "anchor",
+      "command": [
+        "python3",
+        "-B",
+        "anchor_check.py"
+      ],
+      "timeout": 900,
+      "exit_code": 0,
+      "seconds": 24.663528803997906,
+      "child_reaped": true,
+      "result_sha256": "8199d3174b7f3eb4d08dcfa000b95cd0364645a2634cc59e4423f4a18760439b",
+      "pass": true
+    },
+    {
+      "stage": "pair",
+      "command": [
+        "python3",
+        "-B",
+        "fixed_v_direct.py",
+        "CONFIG_vev_coexistence_v001.json",
+        "CONFIG_fixed_v_direct_v001.json"
+      ],
+      "timeout": 900,
+      "exit_code": 0,
+      "seconds": 102.73254813300446,
+      "child_reaped": true,
+      "result_sha256": "423cebb3f8cce4862973259d1d92b9d5c33d834d05c23759339106126ef7ffbd",
+      "pass": true
+    },
+    {
+      "stage": "continuum",
+      "command": [
+        "python3",
+        "-B",
+        "vev_coexistence.py",
+        "CONFIG_vev_coexistence_v001.json",
+        "full"
+      ],
+      "timeout": 900,
+      "exit_code": 0,
+      "seconds": 244.1969073669752,
+      "child_reaped": true,
+      "result_sha256": "addecdcd79c67bb270bd9d30060d64dcacd3f95d98165a50195cfe1d693b651d",
+      "pass": true
+    },
+    {
+      "stage": "fold",
+      "command": [
+        "python3",
+        "-B",
+        "vev_fold_finite.py",
+        "CONFIG_vev_coexistence_v001.json",
+        "CONFIG_vev_fold_finite_v001.json"
+      ],
+      "timeout": 900,
+      "exit_code": 0,
+      "seconds": 48.005123273003846,
+      "child_reaped": true,
+      "result_sha256": "ec5401c1e1928d3e811a385170ea834a8e3650cabb90830c3424eb13b1814d1f",
+      "pass": true
+    },
+    {
+      "stage": "integer",
+      "command": [
+        "python3",
+        "-B",
+        "fixed_v_dyadic.py",
+        "CONFIG_fixed_v_dyadic_v001.json"
+      ],
+      "timeout": 900,
+      "exit_code": 0,
+      "seconds": 4.02421050198609,
+      "child_reaped": true,
+      "result_sha256": "5f0bf59b71089093cac098761dd5f7de9fa42260400d9b50b1892548b06ceaa6",
+      "pass": true
+    }
+  ],
+  "cpus": [
+    0
+  ],
+  "pass": true,
+  "historical_files_modified": false,
+  "end_utc": "2026-11-08T13:12:11.063540+00:00",
+  "all_started_children_reaped": true
+}

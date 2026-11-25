@@ -1,0 +1,47 @@
+{
+  "pass": true,
+  "checks": {
+    "exact_source_rounded_bounds": true,
+    "positive_p_monotone_start_rejection": true,
+    "H_upper_bound": true,
+    "lower_curvature_bound": true,
+    "upper_curvature_bound": true,
+    "duration_lower_exp": true,
+    "integrated_monotone_contradiction": true,
+    "stronger_p_box_contradiction": true,
+    "two_tension_launch_H": true,
+    "two_tension_box_Tprime": true,
+    "two_tension_box_invariance": true,
+    "exponent_factor_bound": true,
+    "two_tension_event_transverse": true,
+    "two_tension_event_endpoint_signs": true,
+    "two_tension_warp_and_t_slope": true,
+    "two_tension_norm_coefficients": true,
+    "two_tension_trace_bound": true,
+    "two_tension_positive_complete_gap": true,
+    "two_tension_E_exit": true,
+    "two_tension_trial_not_a_certificate": true,
+    "cosine_bulk_H": true,
+    "cosine_bulk_T": true,
+    "cosine_constraint": true,
+    "cosine_warp_k_range": true,
+    "cosine_trace_bound": true,
+    "cosine_gap_mixed_allocated": true,
+    "cosine_trial_and_cone_exit": true,
+    "shifted_square_and_boundary_sign": true,
+    "arbitrary_profile_norm_identity": true,
+    "mixed_wall_hessian": true,
+    "adverse_pure_psi_trial_sign": true
+  },
+  "count": 31,
+  "runtime": {
+    "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+    "platform": "Linux-7.0.0-42-generic-aarch64-with-glibc2.43",
+    "cpus": [
+      0
+    ],
+    "precision": 768,
+    "flint": "0.9.0"
+  },
+  "config_sha256": "ff682a45b99a0abccddc66b7156aaf72eb08184fbe54e57998896075ddf069be"
+}

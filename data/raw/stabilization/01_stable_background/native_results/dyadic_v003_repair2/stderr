@@ -1,0 +1,74 @@
+Traceback (most recent call last):
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 149, in advance
+    z=picard(y,h,mu)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 109, in picard
+    raise RuntimeError('dyadic Picard divergence guard')
+RuntimeError: dyadic Picard divergence guard
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 149, in advance
+    z=picard(y,h,mu)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 109, in picard
+    raise RuntimeError('dyadic Picard divergence guard')
+RuntimeError: dyadic Picard divergence guard
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 149, in advance
+    z=picard(y,h,mu)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 109, in picard
+    raise RuntimeError('dyadic Picard divergence guard')
+RuntimeError: dyadic Picard divergence guard
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 149, in advance
+    z=picard(y,h,mu)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 109, in picard
+    raise RuntimeError('dyadic Picard divergence guard')
+RuntimeError: dyadic Picard divergence guard
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 149, in advance
+    z=picard(y,h,mu)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 114, in picard
+    raise RuntimeError(f'dyadic Picard inclusion failed at {h}')
+RuntimeError: dyadic Picard inclusion failed at 3931399370563/13510798882111488
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 315, in <module>
+    main()
+    ~~~~^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 292, in main
+    left=eigen_residual(y0,lo,hi,mu0,n,order)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 231, in eigen_residual
+    flow=Flow(y0+[q,I.exact(1),F0],hi,n,order,mu)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 145, in __init__
+    y=self.advance(y,j*step,step,order,mu)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 155, in advance
+    return self.advance(mid,t+h/2,h/2,order,mu,depth+1)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 155, in advance
+    return self.advance(mid,t+h/2,h/2,order,mu,depth+1)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 154, in advance
+    mid=self.advance(y,t,h/2,order,mu,depth+1)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 155, in advance
+    return self.advance(mid,t+h/2,h/2,order,mu,depth+1)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 155, in advance
+    return self.advance(mid,t+h/2,h/2,order,mu,depth+1)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 149, in advance
+    z=picard(y,h,mu)
+  File "/home/parallels/research-runs/paper-a-stabilization-background-20261107T080454Z/dyadic_v003_repair2/dyadic_v003_repair2.py", line 114, in picard
+    raise RuntimeError(f'dyadic Picard inclusion failed at {h}')
+RuntimeError: dyadic Picard inclusion failed at 3931399370563/27021597764222976

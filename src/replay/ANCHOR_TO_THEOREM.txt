@@ -1,0 +1,61 @@
+ANCHOR-TO-THEOREM EVIDENCE MAP
+All paths below are relative to this reviewer directory or the fresh output.
+
+1. Exact definition: article Table I and Appendix A give the six bare
+   rational coefficients, lower launch, original upper junctions, and rational
+   (A,D) box. C_a=A and C_b=Phi(D) are traces of its unique zero, not printed
+   decimal constants. sources/constructor/fixed_background.py binds the exact
+   coefficients; CONFIG_coupled_v002.json binds the selected rational box.
+
+2. Original provenance: inputs/original_anchor.json, original hash in README;
+   inputs/anchor_refinement.json supplies three completed historical refinements.
+   Paper A article and supplement are in documents/. The new reader route can
+   prove existence and uniqueness in the defining box without treating the
+   historical existence statement as an axiom.
+
+3. Replay: --mode anchor -> anchor/ANCHOR_CHECK.json. anchor_check.py uses
+   coupled_v002.original_flow, neighborhood_v001.residual/jacobian, and
+   bg_independent outward Taylor/Picard flow. It checks invertibility of the
+   rational midpoint inverse, strict self-map, and weighted derivative norm
+   below one in each nested box. Banach contraction gives the unique zero.
+   Endpoint flow gives C_b. The final enclosures must be contained in the
+   precise candidate center intervals. This is a same-backend proof replay.
+
+4. Center consumers: inputs/candidate.json.input_source.C_a/C_b and
+   sources/certifier/CONFIG_dyadic_anchor_v001.json.C_a/C_b are the shared
+   anchor enclosure premises. The centers stay fixed in all later actions.
+   The candidate, branch and original scripts retain their historical hashes.
+   Path adapters do not rewrite numerical coefficients or tolerances.
+
+5. Rational pair: --mode pair -> pair/FIXED_V_DIRECT.json. Both original upper
+   junctions are contracted at v=-303/10000 and nonphase masses are bracketed
+   using the regular physical variables. --mode integer ->
+   integer/FIXED_V_DYADIC.json repeats the fixed-action solves and mass signs
+   with 192-bit outward integer arithmetic. Both routes share the anchor.
+
+6. Full intervals: --mode continuum -> continuum/VEV_COEXISTENCE_RESULT.json.
+   48 whole launch cells plus six endpoint shots, not sampled curve fitting.
+   Positive whole-profile eigenfunctions and the single-mass form identity
+   in article V / Appendix F imply complete 0/1 negative counts.
+
+7. Local fold: --mode fold -> fold/VEV_FOLD_FINITE.json. It refines the unique
+   zero in the separate middle launch interval, using the signed tangent,
+   positive two-mass identity and finite-band bounds. In --mode all the
+   freshly generated continuum source is hashed and consumed. No evidence
+   covers the two gaps to the distant rational pair's launch intervals.
+
+8. Stable witness and robustness: --mode robustness produces witness,
+   interval, material directories. These replay the original one-coefficient
+   event construction, 12 whole launch cells and narrow 13-coefficient
+   contraction, respectively. The full-form gap follows from the analytic
+   coercivity estimates in article Appendix E and supplement S1. The rational sub-box printed in
+   the paper is contained in the material record by exact saved-record checks
+   provided in the full source package. No new action neighborhood is searched.
+
+9. Analytical dependencies and limits: all physical interpretations use the
+   generic harmonic quotient, moving-wall correspondence, positive kinetic
+   form, weak-domain argument and count identity. The replay evaluates their
+   finite arithmetic predicates; it is not a proof-assistant verification or
+   independent specialist review of those arguments. The original-action
+   obstruction is analytic, with constants and source derivations retained
+   in the full internal evidence package and stated in article Appendix E.

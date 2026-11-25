@@ -1,0 +1,26 @@
+{
+  "pass": true,
+  "count": 12,
+  "checks": {
+    "ADM_full_restriction_equals_V3_plus_boundary": true,
+    "doubled_GHY_cancels_wall_metric_lower": true,
+    "doubled_GHY_cancels_wall_metric_upper": true,
+    "warp_kinetic_cancellation": true,
+    "original_stationary_oscillator_graph": true,
+    "original_coupled_effective_quadratic": true,
+    "baseline_drop_and_VEV_gates": true,
+    "decoupled_monotone_pure_psi_strict": true,
+    "coupled_monotone_pure_psi_strict": true,
+    "sextic_off_axis_lower_slope_strict": true,
+    "sextic_monotone_pure_psi_strict": true,
+    "sextic_stationary_tension_drop": true
+  },
+  "scope": "restricted ADM action/finite-wall identities and original/sextic global negative-form exclusions",
+  "runtime": {
+    "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+    "platform": "Linux-7.0.0-42-generic-aarch64-with-glibc2.43",
+    "affinity": [
+      0
+    ]
+  }
+}

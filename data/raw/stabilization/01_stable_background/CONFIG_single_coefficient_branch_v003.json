@@ -1,0 +1,13 @@
+{
+  "action":"ACTION_v003.txt",
+  "source_enclosures":"CONFIG_coupled_anchor_binding_v002.json",
+  "A_interval":["931/10000","4667/50000"],
+  "A_slabs":12,
+  "D_bracket":["2/5","1/2"],
+  "requested_interior_v":["-2615/100000","-2597/100000"],
+  "steps":128,
+  "taylor_order":7,
+  "precision_bits":256,
+  "root_bisections":44,
+  "required":"Validated whole A/D cells, strict event signs/transversality, robust gap, positive curvature, derivative monotonicity, explicit interior one-coefficient v interval"
+}

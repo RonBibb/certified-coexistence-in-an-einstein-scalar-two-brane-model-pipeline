@@ -1,0 +1,13 @@
+{
+  "action":"ACTION_v003.txt",
+  "anchor_binding":"CONFIG_coupled_anchor_binding_v002.json",
+  "nominal_binding":"CONFIG_single_coefficient_nominal_binding_v003.json",
+  "k":"1/20000",
+  "initial_mu":["3/1000","3/250"],
+  "precision_bits":256,
+  "taylor_order":7,
+  "steps":128,
+  "bisections":15,
+  "max_mass_width":"1/1000000",
+  "required":"Whole positive metric solutions at sign ends and uniform final mass tube; actual coupled finite-wall residual, strict bracket of the lowest nonsymmetry mass"
+}
