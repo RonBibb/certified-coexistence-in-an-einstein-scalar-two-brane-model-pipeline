@@ -1,8 +1,9 @@
-# Current author PDFs
+# Author preprint v1.0.0
 
-24 November 2026: article 27 pages; supplement 11 pages. Keep both files together
-for relative cross-PDF links. These are unsubmitted author working copies, not
-peer-reviewed or accepted papers. The JMP prefix is a prospective target label.
+24 November 2026: article 27 pages; supplement 11 pages. Keep both PDFs together
+for relative links. Both carry DOI 10.5281/zenodo.24518392 (reserved pending Zenodo
+publication), version 1.0.0 and unreviewed preprint status. The JMP prefix is a
+prospective target label, not journal submission or acceptance.
 
-Paper A is separately available at https://doi.org/10.5281/zenodo.24515553 .
-No companion DOI has been assigned by this repository import.
+The PDFs cite Paper A at https://doi.org/10.5281/zenodo.24515553 and the supporting
+GitHub tag `paper-a-companion-preprint-v1.0.0`. Paper A is unchanged.

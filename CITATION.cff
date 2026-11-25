@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the companion preprint when using these computational materials."
+title: "Certified coexistence and a spectral fold: reproducibility pipeline"
+type: software
+authors:
+  - family-names: Bibb
+    given-names: Ronald
+    orcid: "https://orcid.org/0009-0004-1153-2464"
+version: 1.0.0
+date-released: 2026-11-24
+repository-code: "https://github.com/RonBibb/certified-coexistence-in-an-einstein-scalar-two-brane-model-pipeline"
+preferred-citation:
+  type: article
+  title: "Certified coexistence and a spectral fold in an Einstein-scalar two-brane model"
+  authors:
+    - family-names: Bibb
+      given-names: Ronald
+      orcid: "https://orcid.org/0009-0004-1153-2464"
+  year: 2026
+  doi: "10.5281/zenodo.24518392"
+  url: "https://doi.org/10.5281/zenodo.24518392"
+  notes: "Author preprint, version 1.0.0; not peer reviewed. DOI reserved pending publication."

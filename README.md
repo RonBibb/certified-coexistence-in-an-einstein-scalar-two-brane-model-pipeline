@@ -11,11 +11,13 @@ by Ronald Bibb, Liberty University. This is the companion to
 - [Supplement](manuscript/JMP_coexistence_supplement.pdf): 11 pages.
 - [Accessibility descriptions](docs/ACCESSIBILITY.txt).
 
-These are the 24 November 2026 author working PDFs, not an accepted or peer-reviewed
-publication. The `JMP` filename prefix denotes a prospective journal target.
-The companion has no Zenodo DOI or journal submission as of this import. The
-unchanged PDFs contain some pre-deposit availability wording; this README supplies
-the current public access route. No scientific content was revised for this import.
+These are author preprint **v1.0.0**, dated 24 November 2026, not peer-reviewed or
+accepted papers. The `JMP` filename prefix denotes a prospective journal target.
+The article and supplement share reserved DOI
+[10.5281/zenodo.24518392](https://doi.org/10.5281/zenodo.24518392); the Zenodo record
+is prepared as a draft, and the DOI resolves after the author publishes it.
+The immutable release tag is `paper-a-companion-preprint-v1.0.0`.
+See [release notes](docs/PREPRINT_v1.0.0.md). No numerical algorithms or inputs changed.
 
 ## Start with the lightweight checks
 
@@ -62,4 +64,4 @@ and internal analytic scrutiny are not external human peer review.
 
 Editable manuscripts, historical review packages and research administration
 remain in a separate private repository. The public package is usable without it.
-No release tag or new scientific solver execution is implied by this GitHub import.
+The preprint tag freezes this package; no new scientific solver execution was performed.

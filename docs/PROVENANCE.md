@@ -27,3 +27,10 @@ reading copies have not been promoted to the current article.
 
 The import does not rewrite old delivery manifests, claim a new numerical replay,
 or publish the companion to Zenodo or a journal.
+
+## Preprint update
+
+The v1.0.0 tag updates the generated PDFs and publication metadata. Its import
+manifest maps those current copies to their current private sources. The initial
+import and original manifests remain in Git history; numerical sources and records
+retain their original bytes. This change does not create a new scientific replay.

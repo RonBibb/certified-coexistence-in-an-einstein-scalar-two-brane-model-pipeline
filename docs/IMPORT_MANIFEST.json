@@ -1,6 +1,6 @@
 {
-  "created_utc": "2026-11-25T00:11:22.481114+00:00",
-  "hash_host": "Linux aarch64",
+  "version": "1.0.0",
+  "hash_host": "native Linux",
   "files": [
     {
       "source": "reviewer/replay.py",
@@ -3280,12 +3280,12 @@
     {
       "source": "output/pdf/JMP_coexistence_article.pdf",
       "public_path": "manuscript/JMP_coexistence_article.pdf",
-      "sha256": "baf62d0fb45c0222c7d0ec0903d3a88de2415d8db210cd6a610b925c4bc64a8b"
+      "sha256": "a6a24385f6845be52d02adc20ce2c292b73af0d2013fe613a68606d2b5f41d6f"
     },
     {
       "source": "output/pdf/JMP_coexistence_supplement.pdf",
       "public_path": "manuscript/JMP_coexistence_supplement.pdf",
-      "sha256": "cdc24bc1ff93027da195c33be876b26f44cba4192a43569134319f201585129c"
+      "sha256": "b46fc977f8ee06db9e9f75f70d2e4a63d1b2bb53d9325dbae02622cb873eae44"
     },
     {
       "source": "ACCESSIBILITY.txt",
@@ -3300,7 +3300,7 @@
     {
       "source": "SUBMISSION_VERSION.json",
       "public_path": "docs/provenance/IMPORTED_SUBMISSION_VERSION.json",
-      "sha256": "0c0f1bfcaf1ce284d8751ab9839ae2790279456ae96837dcaf95f6451357e687"
+      "sha256": "c1ecf47ae76ade47a4671e49bca6ba0351c0925d26dc18c16cdc5703fd489074"
     }
   ]
 }
